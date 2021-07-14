@@ -1,0 +1,18 @@
+$primary: #998053;
+$dark: #050507;
+$light-primary-bg: #DDDEE7;
+$light-primary: #DDDEE7;
+$theme-colors: (
+    "primary": $primary,
+    "info": $light-primary,
+    "danger": teal,
+    "dark": $dark
+);
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+.side-img{
+ background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('/assets/img/background.jpg') no-repeat;
+ background-size: cover;
+ min-height: 100vh;
+}
