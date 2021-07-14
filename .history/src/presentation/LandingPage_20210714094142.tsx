@@ -6,10 +6,10 @@ export const LandingPage = () => {
         <Row className="min-vh-100 align-items-center">
             <Col className="p-5">
                 <h1 className="display-1 font-weight-bold">Coming Soon</h1>
-                <h5 className="text-muted font-weight-light">Your office IT solutions at one place.</h5>
+                <h5 className="text-muted">Your office IT solutions at one place.</h5>
                 <a className="btn btn-primary btn-lg my-4" href="mailto:contact@thekxgh.com"> Send us a mail {'>'} </a>
             </Col>
-            <Col className="side-img min-vh-100">
+            <Col className="bg-secondary min-vh-100">
                 
             </Col>
         </Row>
