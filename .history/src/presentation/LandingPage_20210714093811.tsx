@@ -9,7 +9,7 @@ export const LandingPage = () => {
                 <h5>Your office IT solutions at one place.</h5>
             </Col>
             <Col className="bg-primary min-vh-100">
-                
+                <h1>Heya</h1>
             </Col>
         </Row>
     </Container>
